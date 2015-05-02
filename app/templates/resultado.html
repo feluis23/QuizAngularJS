@@ -1,0 +1,19 @@
+<div class="result">
+	<div class="logo_frontend">
+		<img src="http://frontend-labs.com/wp-content/uploads/2014/11/logofe.png" alt="FrontEnd Labs"><br>
+		<span class="frontend">@frontend</span><span class="labs">labs</span> <br>
+		<span>http://frontendlabs.io</span>
+	</div>
+	<div class="score">
+		<div ng-if="score >= 20" class="message">
+			<h2 >Felicidades!!!</h2>
+			<p>Ya eres un súper heroe en <strong>AngularJS :)</strong></p>
+		</div>
+		<div ng-if="score < 20" class="message">
+			<h2 >No te rindas!!!</h2>
+			<p>Necesitas una nota mínima de 20 para aprobar</p>
+		</div>
+		<span>Tu puntaje:</span>
+		<h4>{{score}}</h4>
+	</div>
+</div>

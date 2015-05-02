@@ -1,0 +1,87 @@
+{
+	"id": 1,
+	"premise": "¿Cómo se produce la inyección de dependencias en AngularJS?",
+	"keys": [
+		{
+			"id": 1,
+			"text": "La inyección de dependencias solo se produce en los módulos",
+			"active": false
+		},
+		{
+			"id": 2,
+			"text": "La inyección de dependencias no existe en angularJS",
+			"active": false
+		},
+		{
+			"id": 3,
+			"text": "Cualquier componente de AngularJS puede ser requerido por otro componente como si fuera un parámetro",
+			"active": false
+		},
+		{
+			"id": 4,
+			"text": "La inyecciòn de dependencias permite solo inyectar el $scope",
+			"active": false
+		}
+	],
+	"status": true,
+	"visible": false,
+	"response": 3
+},
+{
+	"id": 2,
+	"premise": "$scope:",
+	"keys": [
+		{
+			"id": 1,
+			"text": "Es el contexto en el que se inicializa una variable, función u objeto",
+			"active": false
+		},
+		{
+			"id": 2,
+			"text": "Es un modelo",
+			"active": false
+		},
+		{
+			"id": 3,
+			"text": "Es el contexto global de node",
+			"active": false
+		},
+		{
+			"id": 4,
+			"text": "Es el ámbito donde no se puede acceder al DOM",
+			"active": false
+		}
+	],
+	"status": true,
+	"visible": false,
+	"response": 1
+},
+{
+	"id": 3,
+	"premise": "Un módulo en AngularJS puede ser declarado de las siguientes formas, menos:",
+	"keys": [
+		{
+			"id": 1,
+			"text": "ng-module='app'",
+			"active": false
+		},
+		{
+			"id": 2,
+			"text": "angular.module('app',[])",
+			"active": false
+		},
+		{
+			"id": 3,
+			"text": "Angular.module('app')",
+			"active": false
+		},
+		{
+			"id": 4,
+			"text": "ng-app('app')",
+			"active": false
+		}
+	],
+	"status": true,
+	"visible": false,
+	"response": 2
+}
